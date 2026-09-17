@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Nishu",
+      "email": "nishu@gmail.com"
+    },
+    {
+      "user_id": "John012",
+      "user_name": "John",
+      "password": "123456",
+      "email": "John@gmail.com",
+      "id": "rhxvvIuZPko"
+    },
+    {
+      "user_id": "Asit012",
+      "user_name": "Asit",
+      "password": "12345",
+      "email": "Asit@gmail.com",
+      "id": "yYHRu2OTHsY"
+    },
+    {
+      "user_id": "nit_01",
+      "user_name": "Nit",
+      "password": "nit23",
+      "email": "nit@gmail.com",
+      "id": "JW_9M6YSQao"
+    },
+    {
+      "user_id": "nit_12",
+      "user_name": "Nit",
+      "password": "123",
+      "email": "nit@gmail.com",
+      "id": "FFqH_ym89q0"
+    },
+    {
+      "user_id": "roha",
+      "user_name": "Roha",
+      "password": "098",
+      "email": "roha@gmail.com",
+      "id": "_SGb3hjVZTg"
+    },
+    {
+      "user_id": "yus01",
+      "user_name": "Yush",
+      "password": "poiu",
+      "email": "yush@gmail.com",
+      "id": "EG0eKHCxQcE"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "userId": 1,
+      "date": "2026-08-30",
+      "time": "10:00 AM",
+      "purpose": "General Checkup"
+    },
+    {
+      "id": "Do9qyouFrsY",
+      "title": "Redux Classes",
+      "description": "React Classes Start on soon.",
+      "date": "2026-09-26",
+      "user_id": "nit_12"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
