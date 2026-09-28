@@ -16,14 +16,18 @@ const router = createBrowserRouter([
       },
       {
         path:'login',
-        element:<UserLogin width='w-25'/>
-      }
-    ]
+        element:<UserLogin width='w-25'/>,
+      },
+    ],
   },
   {
     path:'dashboard',
     element: <UserDashboard />
-  }
-])
+  },
+],
+{
+  basename: "/React-To-do-app",
+}
+);
 
 export default router;
